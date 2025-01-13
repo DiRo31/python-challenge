@@ -65,6 +65,7 @@ with open(file_to_load) as financial_data:
 
 # Generate the output summary
 output = (
+    f'Financial Analysis \n'
     f'---------------------------- \n'
     f'Total Months: {total_months}\n'
     f'Total: ${total_net}\n'
